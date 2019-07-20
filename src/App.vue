@@ -7,6 +7,9 @@
 		</transition>
 		
 
+
+		
+
         <nav class="mui-bar mui-bar-tab footer">
 			<router-link class="mui-tab-item" to="/home">
 				<span class="mui-icon mui-icon-home"></span>
