@@ -32,16 +32,9 @@
 <script>
 </script>
 <style scoped>
-    /* .footer {
-		background-color: #26A2FF!important;
-	} */
-	/* .footer .mui-tab-label,
-	.footer .mui-icon:before {
-		color: #fff;
-	} */
 	.container {
 		margin-top: 40px;
-		margin-bottom: 50px;
+		margin-bottom: 55px;
 		overflow-x: hidden;
 	}
 	.v-enter{
@@ -51,11 +44,11 @@
 	.v-leave-to {
 		opacity: 0;
 		transform: translateX(-100%);
+		position: absolute;
 	}
 	.v-enter-active,
 	.v-leave-active {
 		transition: all .4s ease;
-		position: absolute;
 		
 	}
 </style>

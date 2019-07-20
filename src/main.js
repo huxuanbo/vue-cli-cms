@@ -19,11 +19,17 @@ import "./assets/mui/fonts/mui-icons-extra.ttf"
 
 import router from "./router.js"
 
+import axios from "axios"
+Vue.prototype.axios = axios;
+
+import moment from "moment"
+Vue.filter('times', function(dataStr, pattern = "YYYY-MM-DD HH:mm:ss") {
+    return moment(dataStr).format(pattern)
+})
+
 var vm = new Vue({
     el: "#app",
-    data: {
-
-    },
+    data: {},
     render: c => c(App),
     router
 })
